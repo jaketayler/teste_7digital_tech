@@ -100,12 +100,21 @@
 	margin-bottom: 10%;
 }
 
-.newslatter h4{
-	font-weight: bold;
+.newslatter .col:first-child h4{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.newslatter .col h4:last-child{
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 ul{
 	list-style: none;
+	margin-bottom: 50px;
 }
 
 ul li{
@@ -125,6 +134,34 @@ ul li{
 	width: 30%;
 }
 
+.btn-newslatter{
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	padding: 2%;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 22px;
+	width: 25%;
+	background-color: #E29F9C;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+
+.inputEmail{
+	padding: 2%;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size: 20px;
+	width: 30%;
+	border: none;
+	border-radius: 10px;	
+}
+
+.col h2{
+	font-weight: 200;
+	margin-bottom: 5%;
+}
 
 @media screen and (max-width:720px) {
 	.home{
